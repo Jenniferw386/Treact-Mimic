@@ -1,0 +1,186 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.row {
+    width: 100%;
+    max-width: 1200px;
+   margin: 0 auto;
+   padding-bottom: 80px;
+}
+section {
+
+}
+
+/* NAv*/
+
+    nav {
+        height: 100px;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 12px;
+}
+a {
+    text-decoration: none;
+}
+.nav__links{
+    font-size: 14px;
+    display: flex;
+    list-style: none;
+    margin: 0px 24px;
+    padding: 0 0 4px;
+}
+
+.nav__link {
+ margin: 0 24px;
+ color: black;
+ letter-spacing: 2;
+}
+.nav__link--button {
+    background-color: #6143e6;
+    color: white;
+    border-radius: 50px;
+    padding: 8px 20px;
+}
+.nav__logo {
+    height: 40px;
+    width: 40px;
+    margin: 0 12px 0 0;
+}
+.logo__whole {
+    display: flex;
+   align-items: center;
+}
+.word__logo {
+  
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: .5px;
+}
+
+/*FIRST BOX*/
+h1 {
+    font-size: 48px;
+}
+.purple__font {
+    color: #6143e6;
+}
+p {
+    font-size: 18px;
+    margin: 20px 0 20px 0;
+}
+.input__bar {
+    border: 1px solid grey;
+    border-radius:50px;
+   padding: 10px 10px;
+   display: flex;
+   justify-content: space-between;
+
+
+}
+input {
+    border: none;
+    margin: 20px;
+}
+.first__pic {
+    width: 60%;
+}
+.whole__first {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left__chunk {
+width: 40%;
+}
+button {
+    border: none;
+    background-color: #6143e6;
+    color: white;
+    border-radius: 50px;
+    padding: 15px 25px;
+    
+}
+.customers {
+    width: 100%;
+}
+.grey__font {
+font-size: 12px;
+margin-top: 50px;
+}
+
+/* FEATURES*/
+
+.container {
+    padding: 80px 0;
+}
+.section__text {
+color: #6143e6;
+font-weight: bold;
+font-size: 16px;
+}
+.text {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.service__para {
+    width: 50%;
+    font-size: 16px;
+}
+.all__containers {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+  
+}
+.whole__container {
+display: flex;
+margin-top: 90px;
+width: calc(100%/3);
+
+}
+.img__container {
+    width: 100px;
+}
+.text__container {
+   width: 50%;
+}   
+
+.icon {
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+/*WORK*/
+.work__chunk {
+    display: flex;
+    width: 100%;
+}
+.work__img {
+width: 50%;
+}
+
+/*STEPS*/
+.steps__chunk {
+    display: flex;
+}
+.number {
+    font-size: 36px;
+    
+}
