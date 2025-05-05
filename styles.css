@@ -9,7 +9,15 @@
     width: 100%;
     max-width: 1200px;
    margin: 0 auto;
-   padding-bottom: 80px;
+
+}
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.section__one{
+    padding-bottom: 80px;
+
 }
 
 /* NAv*/
@@ -65,9 +73,13 @@ a {
 /*FIRST BOX*/
 h1 {
     font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
 }
 .purple__font {
     color: #6143e6;
+    font-weight: bold;
+    letter-spacing: 1.5px;
 }
 p {
     font-size: 18px;
@@ -79,12 +91,15 @@ p {
    padding: 10px 10px;
    display: flex;
    justify-content: space-between;
+   
+  
 
 
 }
 input {
     border: none;
     margin: 20px;
+    position: relative;
 }
 .first__pic {
     width: 60%;
@@ -353,7 +368,6 @@ font-weight: bold;
 
 
 
-
 .tests__chunk {
     display: flex;
 }
@@ -363,4 +377,154 @@ font-weight: bold;
 }
 .textlove {
 
+}
+
+
+
+@media (max-width: 728px) {
+
+    h1 {
+font-size: 30px;
+text-align: center;
+
+
+    }
+    .whole__first {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .left__chunk {
+        width: 70%;
+    }
+    .input__bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    .all__containers {
+        display: flex;
+        flex-direction: column;
+      
+
+    }
+    input {
+        text-align: center;
+    }
+    .service__para {
+        width:80%;
+    }
+    section {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .whole__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .text__container  {
+        text-align: center;
+        width: 90%;
+    }
+    .img__container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+.steps__chunk {
+    display: flex;
+    flex-direction: column;
+}
+.work__chunk {
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+    text-align: center;
+  
+  
+
+}
+.work__text {
+    padding-right: 0;
+    width: 80%;
+}
+.work__img {
+    padding-top:50px;
+    width: 100%;
+}
+.steps__chunk {
+    padding-top: 0;
+}
+.laptop {
+    padding-top: 0;
+}
+.allvalues {
+    display: flex;
+    flex-direction: column;
+}
+.topvalestext {
+
+    text-align: center;
+    padding: 0 40px;
+}
+.valuesimg {
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 40px;
+}
+.valuestextleft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.valuesbox {
+    margin-left: 20px;
+}
+.text__cont {
+    text-align: center;
+  
+}
+.bottomvaluestext {
+    margin-right: 40px;
+}
+button {
+    max-width: 200px;
+}
+.service__para {
+    text-align: center;
+    width: 90%;
+}
+.plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plan {
+    width: 60%;
+   margin-bottom: 30px;
+}
+.planmid {
+    width: 60%;
+   margin-bottom: 30px;
+}
+.tests__chunk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.love {
+    width: 80%;
+    margin-right: 0;
+}
+.textlove {
+    text-align: center;
+    width: 80%;
+}
 }
