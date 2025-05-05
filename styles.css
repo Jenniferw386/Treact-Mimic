@@ -11,9 +11,6 @@
    margin: 0 auto;
    padding-bottom: 80px;
 }
-section {
-
-}
 
 /* NAv*/
 
@@ -133,11 +130,13 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+padding: 20px 50px;
 
 }
 .service__para {
     width: 50%;
-    font-size: 16px;
+    font-size: 18px;
+    padding: 0 10px;
 }
 .all__containers {
     width: 100%;
@@ -245,4 +244,123 @@ width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* PLANS*/
+
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.plan {
+    width: calc(90%/3);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 2rem;
+}
+.planmid {
+    width: calc(90%/3);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 2rem;
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%)
+}
+.plan__top {
+   padding-bottom: 20px;
+   padding-top: 30px;
+}
+.plan__top--green {
+    height: 8px;
+    width: 100%;
+   background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.plan__top--mid {
+    height: 8px;
+    width: 100%;
+}
+
+.plan__top--red {
+    height: 8px;
+    width: 100%;
+   background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+h3 {
+    font-size: 20px;
+    padding: 15px;
+}
+h4 {
+    font-size: 48px;
+    padding-bottom: 15px;
+}
+h5 {
+    font-size: 20px;
+    color: rgb(153, 151, 151);
+}
+hr{
+width: 100%;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+.bullet {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.buynowfirst {
+    width: 100%;
+    max-width: 200px;
+background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+font-weight: bold;
+}
+
+.buynowmid {
+    width: 100%;
+    max-width: 200px;
+    background-color: white;
+    color: #6143e6;
+    font-weight: bold;
+}
+.buynowlast {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 30px;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    font-weight: bold;
+}
+.mid {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%)
+}
+.white {
+    color: white;
+}
+.bulletmid {
+    color: white;
+}
+
+
+
+
+
+
+.tests__chunk {
+    display: flex;
+}
+.love {
+    width: 50%;
+    margin-right: 50px;
+}
+.textlove {
+
 }
