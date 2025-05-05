@@ -473,6 +473,7 @@ text-align: center;
 
     text-align: center;
     padding: 0 40px;
+    margin-bottom: 20px;
 }
 .valuesimg {
     margin: 0 auto;
@@ -485,14 +486,19 @@ text-align: center;
     align-items: center;
 }
 .valuesbox {
-    margin-left: 20px;
+    margin-bottom: 20px;
 }
 .text__cont {
     text-align: center;
+    width: 80%;
+    margin-bottom: 20px;
   
 }
 .bottomvaluestext {
-    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 button {
     max-width: 200px;
