@@ -175,12 +175,74 @@ width: calc(100%/3);
 .work__img {
 width: 50%;
 }
+.work__text {
+    padding-right: 50px;
+}
 
 /*STEPS*/
 .steps__chunk {
     display: flex;
+ padding-top: 96px;
 }
 .number {
     font-size: 36px;
-    
+    padding-top: 5px;
+    color: rgb(171, 166, 166);
+    font-weight: bold;
+
+}
+.each {
+    display: flex;
+    padding-top: 10px;
+}
+.texts {
+    padding-left: 30px;
+}
+.steps__img {
+    width: 100%;
+}
+    .laptop {
+    width: 100%;
+    padding-top:70px;
+    }
+.right {
+    padding-left: 40px;
+    width: 100%;
+}
+.steps__text {
+    padding-top: 40px;
+
+}
+.steps__font {
+    font-size: 14px;
+    padding-right: 150px;
+}
+/* VALUES*/
+.allvalues {
+    display: flex;
+    width: 100%;
+}
+.valuesimg {
+    width: 50%;
+}
+.bottomvaluestext {
+    display: flex;
+}
+.text__cont {
+
+}
+.valuesbox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.value {
+    background-color: #74c28c;
+    border-radius: 50px;
+    padding: 5px 5px;
+    margin: 0 20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
