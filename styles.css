@@ -93,10 +93,8 @@ p {
    padding: 10px 10px;
    display: flex;
    justify-content: space-between;
+   align-items: center;
    
-  
-
-
 }
 input {
     border: none;
@@ -130,6 +128,7 @@ button {
 .grey__font {
 font-size: 12px;
 margin-top: 50px;
+color: grey;
 }
 
 /* FEATURES*/
@@ -254,13 +253,21 @@ width: 50%;
 
 }
 .value {
+    
     background-color: #74c28c;
     border-radius: 50px;
-    padding: 5px 5px;
+    padding: 15px 18px;
     margin: 0 20px 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.valuered {
+    color:rgb(155 44 44);
+    background-color: rgb(254 178 178);
+    border-radius: 50px;
+    padding: 15px;
+    margin: 0 20px 0 0;
 }
 
 /* PLANS*/
@@ -525,37 +532,44 @@ footer {
     h1 {
 font-size: 30px;
 text-align: center;
-
-
+font-weight: bold;
+    }
+    p {
+        text-align: center;
+      font-size: 16px;
+    
     }
     .whole__first {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 0;
         
     }
     .left__chunk {
-        width: 70%;
+        width: 80%;
     }
     .input__bar {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 90%;
+        width: 80%;
+        margin: 0 auto;
     }
+ 
+ 
     .all__containers {
         display: flex;
         flex-direction: column;
-      
-
+        margin: 0;
+        padding: 0;
+    }
+    .icon {
+        margin: 0;
     }
     input {
         text-align: center;
     }
-    .service__para {
-        width:80%;
-    }
+ 
     section {
         padding-bottom: 40px;
         padding-top: 40px;
@@ -567,10 +581,12 @@ text-align: center;
         justify-content: center;
         align-items: center;
         width: 100%;
+        margin: 10px;
     }
     .text__container  {
         text-align: center;
         width: 90%;
+        margin: 10px;
     }
     .img__container {
         display: flex;
@@ -583,13 +599,49 @@ text-align: center;
 }
 .work__chunk {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
  align-items: center;
     text-align: center;
-  
-  
+}
+.work__img {
+    padding: 30px;
+    
 
 }
+
+
+  .laptop {
+    padding: 30px;
+  }
+  
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.steps__font {
+    text-align: center;
+    margin-bottom: 10px;
+padding: 0;
+max-width: 400px;
+
+}
+.each {
+    display: flex;
+    flex-direction: column;
+}
+.number {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 .work__text {
     padding-right: 0;
     width: 80%;
@@ -606,13 +658,13 @@ text-align: center;
 }
 .allvalues {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 .topvalestext {
 
     text-align: center;
     padding: 0 40px;
-    margin-bottom: 20px;
+    margin-top: 40px;
 }
 .valuesimg {
     margin: 0 auto;
@@ -639,12 +691,15 @@ text-align: center;
     align-items: center;
     
 }
+.text {
+    padding: 0;
+}
 button {
     max-width: 200px;
 }
 .service__para {
     text-align: center;
-    width: 90%;
+    width: 80%;
 }
 .plans {
     display: flex;
@@ -715,10 +770,15 @@ button {
 .social__links {
     padding-top: 20px;
 }
+.lines {
+    padding-right: 20px;
 
-
+}
     .btn__menu {
       display: block;
+      background-color: white;
+      color: black;
+      padding: 0px;
     }
   
     .nav__links {
@@ -726,4 +786,23 @@ button {
     }
  
     
+}
+
+@media (max-width: 550px) {
+  
+    .input__bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        border: none;
+    }
+.input__text {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100%;
+}
+
 }
