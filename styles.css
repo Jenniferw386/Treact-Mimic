@@ -376,8 +376,144 @@ font-weight: bold;
     margin-right: 50px;
 }
 .textlove {
+display: flex;
+flex-direction: column;
+}
+.stars {
+    width: 30%;
+}
+.bold {
+    font-weight: bold;
 
 }
+.who {
+    display: flex;
+align-items: center;
+}
+.who__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin: 20px 20px;
+}
+
+
+.centered__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.question__box {
+    border: 1px ;
+    background-color:  rgba(192, 215, 235, 0.5);;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 70%;
+}
+.question {
+    padding-left: 40px;
+}
+.arrow {
+   
+    padding-right: 20px;
+    height: 20px;
+}
+.questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.widthsmall {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.box {
+    display: flex;
+    border: 1px;
+    background-color: rgb(100 21 255);
+    justify-content: space-between;
+    padding: 120px;
+    border-radius: 10px;
+
+}
+.red {
+    background-color: rgb(245 101 101);
+    width: 200px;
+    font-weight: bold;
+   
+}
+.whitehead {
+    color: white;
+    width: 50%;
+    font-size: 30px;
+    
+}
+.contact {
+    border: 1px solid white;
+    width: 200px;
+    font-weight: bold;
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+   
+   
+} 
+.link {
+  
+    display: flex;
+
+    width: calc(100%/5);
+    margin: 0;
+    color: white;
+}
+.main {
+    display: flex;
+
+    width: calc(100%/5);
+    font-weight: bold;
+    color: white;
+}
+footer {
+   padding: 40px;
+    background-color: rgb(100 21 255);
+   
+}
+.word__logo--white {
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: .5px;
+}
+.last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logolast {
+    display: flex;
+    align-items: center;
+}
+.social {
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+  
+}
+.face {
+    width: 100%;
+    padding: 4px;
+}
+
 
 
 
