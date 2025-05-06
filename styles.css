@@ -21,7 +21,9 @@ section {
 }
 
 /* NAv*/
-
+.btn__menu {
+    display: none;
+}
     nav {
         height: 100px;
         width: 100%;
@@ -517,8 +519,9 @@ footer {
 
 
 
-@media (max-width: 728px) {
+@media (max-width: 778px) {
 
+   
     h1 {
 font-size: 30px;
 text-align: center;
@@ -712,4 +715,15 @@ button {
 .social__links {
     padding-top: 20px;
 }
+
+
+    .btn__menu {
+      display: block;
+    }
+  
+    .nav__links {
+      display: none;
+    }
+ 
+    
 }
