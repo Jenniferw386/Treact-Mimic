@@ -535,8 +535,11 @@ button {
 button:active {
   transform: translateY(1px);
 }
-.nav__link:hover {
+.nav__link:hover,
+.menu__link:hover
+{
     text-decoration: underline;
+    color: #6143e6;
 }
 .menu__link:hover {
     text-decoration: underline;
@@ -617,7 +620,7 @@ z-index: 999;
 
 
 
-@media (max-width: 778px) {
+@media (max-width: 800px) {
 
    
     h1 {
