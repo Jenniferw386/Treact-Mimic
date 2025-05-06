@@ -669,4 +669,47 @@ button {
     text-align: center;
     width: 80%;
 }
+.stars {
+   margin: 0 auto;
+}
+.who {
+    display: flex;
+    flex-direction: column;
+}
+.who__img {
+    margin-bottom: 0;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    padding: 40px;
+    
+}
+.whitehead {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.red {
+    margin-bottom: 30px;
+ 
+}
+
+.link {
+   margin: 0 auto;
+    font-size: 12px;
+    padding: 10px;
+}
+.links {
+    margin: 0;
+}
+.last {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.social__links {
+    padding-top: 20px;
+}
 }
